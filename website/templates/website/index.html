@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    {% load poll_extras %}
+    <h1>Welcome to Opinionly</h1>
+    <p>Cpublic opinion on literally anything and everything :)</p>
+    <hr/>
+    <h2>Hot questions by users that need your opinion---------></h2>
+    {% if latest_question_list %}
+
+    {% for question in latest_question_list %}
+        <p><b><a href="{% url 'website:detail' slug=question.slug %}">{{ question.question_text }}</a></b>
+            <br/> <small>Asked: {{ question.pub_date }} 1k+ opinions <b>by:</b>{{question.author}}</small> </p> 
+         
+    {% endfor %}
+
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+</body>
+</html>
+
+
+

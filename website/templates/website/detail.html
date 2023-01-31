@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1>{{ question.question_text }}</h1>
+<ul>
+
+{% for opinion in question.opinion_set.all %}
+    <li>{{ opinion.opinion_text }} <b class="change_color"> <span class="user_vote">{{opinion.votes}}</span> votes </b><i class="bi bi-caret-up-fill"></i></li>
+      
+    <!-- <b>{{ opinion.votes }}%  -->
+{% endfor %}
+
+</ul>
+<div>
+    <!-- question.opinion_set.all -->
+    <p>Your choice, not here?<br/>Add your own opinion</p>
+    <input id="user-opinion"/><br/><button>post</button>
+</div>
+
+
+<script>
+
+    // Stored the users votes in a variable called VOTE.
+    // Stored the text "votes" in a variable colorChange to be able to change its color.
+
+    let vote = document.getElementsByClassName("user_vote");
+    let colorChange = document.getElementsByClassName("change_color");
+    let i = 0;
+    const  colors = ["red", "green", "blue"];
+
+    // This function changes the color based on the user opinion, given the criterias below are been met
+    // 1 if votes are less than 25, color will be red.
+    // 2 if votes are less   than 55, color will be green.
+    // 3 if votes are greater than 55, color will be blue.
+
+    for( i = 0; i < vote.length; i++){
+        let trap = vote[i].innerHTML;
+
+        trap < 25 ? vote[i].style.color = colors[0] : trap < 55 ? vote[i].style.color = colors[1] : vote[i].style.color = colors[2];
+
+        // Number(vote[i]);
+        // if(vote[i].innerHTML < 25){
+        //     vote[i].style.color = "red";
+        // }
+        // else if(vote[i].innerHTML < 55){
+        //     vote[i].style.color = "green";
+        // }
+        // else if(vote[i].innerHTML > 55){vote[i].style.color = "blue";};
+
+        console.log(vote[i].innerHTML);
+        colorChange[i].style.color = vote[i].style.color;
+    }
+
+</script>
+</body>
+</html>
