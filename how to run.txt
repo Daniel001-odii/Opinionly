@@ -1,0 +1,5 @@
+python -m pip install SomePackage
+
+admin login:
+username: danny
+password: dan12345
