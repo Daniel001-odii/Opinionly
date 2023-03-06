@@ -1,0 +1,13 @@
+Opinionly colors
+
+naviagtion-scroll color ( (6C888B 28%)light green, (F0D800) yellow, (08B74F) green).
+
+F0D800 (yellow color)
+
+home-page (fill color (08B74F 64%)green, stroke color (08B74F 28%)green)
+
+homepage buttons (box-shadow color 00002F 25%) blue.
+
+footer coming-soon button (text-color (D9D9D9) grey)
+
+footer-copyright (text-color (6C888B) dark-grey)

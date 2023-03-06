@@ -1,0 +1,35 @@
+@import "./variables";
+@import "./navBar";
+
+.home-container{
+    width: 100%;
+    border: 1px solid red;
+    background: red;
+}
+
+.welcome-header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/assets/welcome-head-img.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .welcome-header-text{
+        color: $white;
+        font-size: 2rem;
+        position: absolute;
+        transform: translate(20%, 50%);
+
+        h1{
+            font-size: 3rem;
+            font-weight: 500;
+
+            span{
+                font-size: 6rem;
+                color: hsl(144, 64%, 37%);
+                -webkit-text-stroke: 1px hsl(144, 72%, 18%);
+            }
+        }
+    }
+}
