@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-opinionly/favicon-192.png">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Opinionly - Register</title>
+</head>
+
+<body>
+    <div class="register-container-main">
+
+        <div class="register-container">
+
+            <div class="register-image-section">
+                <img src="/assets/Register-img.png" alt="Register Image">
+            </div>
+
+            <div class="register-form-section">
+
+                <div class="external-buttons">
+                    <img class="register-section-image" src="/assets/girl-btn.png" alt="Section Image">
+                    <button>Continue with Google <img src="/assets/Google-icon.png" alt="Google Icon"></button>
+                    <button>Continue with Facebook <img src="/assets/facebook-icon.png" alt="Facebook Icon"></button>
+                </div>
+
+                <div class="register-form-container">
+
+                    <div class="form-container">
+
+                        <div class="form-toggle-buttons">
+                            <button id="sign-in-toggle" onclick="toggleSignIn()">Sign In</button>
+                            <button id="sign-up-toggle" onclick="toggleSignUp()">Sign Up</button>
+                        </div>
+
+                        <div id="sign-in-form">
+                            <form action="/">
+                                <input type="text" placeholder="Username or email">
+                                <input type="password" placeholder="Password">
+                                <a href="#">Forgot password ?</a>
+                                <button type="button" class="sign-btn sign-in">Sign In</button>
+                            </form>
+                        </div>
+
+                        <div id="sign-up-form">
+                            <form action="/">
+                                <input type="text" placeholder="Create a username">
+                                <input type="email" placeholder="Enter your email">
+                                <input type="password" placeholder="Create a password">
+                                <input type="password" placeholder="Confirm your password">
+                                <div class="terms-check">
+                                    <input type="checkbox"><h5>I agree to all <a href="#">Terms & Conditions</a> </h5>
+                                </div>
+                                <button type="button" class="sign-btn sign-up">Sign Up</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/script.js" defer></script>
+
+</body>
+
+</html>
