@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/assets/favicon-opinionly/favicon-192.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/styles/styles.css">
     <title>Opinionly - Home</title>
 </head>
@@ -14,34 +14,34 @@
 <body>
 
     <div class="nav-section">
-        <div class="navigation-bar">
+        <div class="navigation-bar xs-jus-space "  style="border: 1px solid red;">
             <img class="menu-img" src="/assets/menu 1.png" alt="Menu-section">
     
-            <div class="logo">
-                <img src="/assets/opinionly-logo-full-white.png" alt="Logo">
+            <div class="logo" style="border: 1px solid red;">
+                <a href="./getstarted.html"><img src="/assets/opinionly-logo-full-white.png" alt="Logo"></a>
             </div>
     
-            <div class="search-bar">
+            <div class="search-bar xs-hide">
                 <input type="text" placeholder="Search for opinions here . . .">
                 <button><img src="/assets/search-icon-menu.png" alt="Search Icon"></button>
             </div>
     
-            <div class="navigation-links">
+            <div class="navigation-links xs-hide">
                 <ul>
                     <li><a href="./home.html">Home</a></li>
                     <li><a href="./feed.html">Feed</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Our Company</a></li>
+                    <li><a href="./careers.html">Careers</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="./about.html">Our Company</a></li>
                 </ul>
             </div>
 
-            <div class="nav-user-image">
+            <div class="nav-user-image xs-hide">
                 <img src="/assets/forest.jpg" alt="Nav Bar User Image">
                 <span></span>
             </div>
     
-            <a href="./register.html"><button id="register-btn">Register</button></a>
+            <a href="./register.html"><button class="xs-hide" id="register-btn">Register</button></a>
         </div>
         <div id="bar"></div>
     </div>
@@ -49,20 +49,20 @@
 
     <div class="home-container">
 
-        <div class="welcome-header">
-            <div class="welcome-header-text">
-                <h1>Are you looking to share your <big>Opinions...</big></h1>
+        <div class="welcome-header xs-js-center pos-rm">
+            <div class="welcome-header-text xs-w-90" style="border: 1px solid red;">
+                <h1 class="xs-fs-1">Are you looking to share your <big class="xs-fs-1">Opinions...</big></h1>
             </div>
         </div>
 
         <div class="welcome-intro-section">
-            <div class="welcome-intro">
-                <div class="welcome-intro-text">
-                    <h3>Do you need a place where you can be free to air your views, opinions and thoughts on any topic
+            <div class="welcome-intro" style="border: 1px solid red">
+                <div class="welcome-intro-text xs-pad-d5">
+                    <h3 class="xs-fs-d8">Do you need a place where you can be free to air your views, opinions and thoughts on any topic
                         <b>?</b></h3>
                 </div>
                 <div class="welcome-intro-image">
-                    <img src="/assets/woman-ideas.svg" alt="Woman-sitting Image">
+                    <img class="xs-w-70" src="/assets/woman-ideas.svg" alt="Woman-sitting Image">
                 </div>
             </div>
         </div>
@@ -71,10 +71,10 @@
         <div class="welcome-intro-section Top">
             <div class="welcome-intro-flipped">
                 <div class="welcome-intro-image-flipped">
-                    <img src="/assets/organization.svg" alt="Organization Image">
+                    <img  class="xs-w-70" src="/assets/organization.svg" alt="Organization Image">
                 </div>
-                <div class="welcome-intro-text-flipped">
-                    <h3>Are you an organization looking to scale up your business, get to know about your audience and
+                <div class="welcome-intro-text-flipped xs-pad-d5">
+                    <h3 class="xs-fs-d8">Are you an organization looking to scale up your business, get to know about your audience and
                         their opinions about your products <b>?</b></h3>
                 </div>
             </div>
@@ -83,66 +83,66 @@
 
         <div class="welcome-intro-section Top">
             <div class="welcome-intro">
-                <div class="welcome-intro-text">
-                    <h3>Or are you just someone who has a thirst for information and want to get the gist on the latest
+                <div class="welcome-intro-text xs-pad-d5">
+                    <h3  class="xs-fs-d8">Or are you just someone who has a thirst for information and want to get the gist on the latest
                         trends, hottest topics, and many more <b>?</b></h3>
                 </div>
                 <div class="welcome-intro-image">
-                    <img src="/assets/man-reading-newspaper.svg" alt="Man reading newspaper Image">
+                    <img class="xs-w-70 xs-ml-1" src="/assets/man-reading-newspaper.svg" alt="Man reading newspaper Image">
                 </div>
             </div>
         </div>
 
-        <div class="welcome-message">
-            <h2>Welcome to <img src="/assets/opinionly-logo-full-white.png" alt="Welcome Image"></h2>
-            <p><b>O</b>pinionly is a platform where anyone can freely voice out his/her opinions, views, thoughts on
+        <div class="welcome-message xs-w-95 xs-pad-d7 xs-marginTop-d8">
+            <h2 class="xs-fs-1 xs-js-center">Welcome to <img class="xs-w-40" src="/assets/opinionly-logo-full-white.png" alt="Welcome Image"></h2>
+            <p class="xs-fs-d8"><b class="xs-fs-1">O</b>pinionly is a platform where anyone can freely voice out his/her opinions, views, thoughts on
                 different matters of their interest without anyone throwing shades, and also a place where organizations
                 around the world can have direct access to their audiences.</p>
-            <a href="#">Our Company</a>
+            <a class="xs-btn-pad xs-fs-1" href="#">Our Company</a>
         </div>
 
-        <div class="cta-section">
+        <div class="cta-section xs-marginTop-d8">
             <div class="cta-actions">
                 <div class="cta-image">
-                    <img src="/assets/feed-image.svg" alt="CTA-FEED Section">
+                    <img class="xs-w-75" src="/assets/feed-image.svg" alt="CTA-FEED Section">
                 </div>
-                <div class="cta-text">
-                    <h2>A place where all your opinions are heard, seen and protected and are our utmost priority.</h2>
-                    <a href="#">See Feed</a>
+                <div class="cta-text xs-pad-d5">
+                    <h2 class="xs-fs-1">A place where all your opinions are heard, seen and protected and are our utmost priority.</h2>
+                    <a class="xs-btn-pad xs-fs-1" href="#">See Feed</a>
                 </div>
             </div>
         </div>
 
-        <div class="cta-section">
+        <div class="cta-section xs-marginTop-d8">
             <div class="cta-actions">
                 <div class="cta-image">
-                    <img src="/assets/About-image.svg" alt="CTA-ABOUT Section">
+                    <img class="xs-w-75" src="/assets/About-image.svg" alt="CTA-ABOUT Section">
                 </div>
-                <div class="cta-text">
-                    <h2>Get to know us better, our goals, better knowledge of terminologies used and many more.</h2>
-                    <a href="#">About Us</a>
+                <div class="cta-text xs-pad-d5">
+                    <h2 class="xs-fs-1">Get to know us better, our goals, better knowledge of terminologies used and many more.</h2>
+                    <a class="xs-btn-pad xs-fs-1" href="#">About Us</a>
                 </div>
             </div>
         </div>
 
-        <div class="cta-section">
+        <div class="cta-section xs-marginTop-d8">
             <div class="cta-actions">
                 <div class="cta-image">
-                    <img src="/assets/Contact-us-img.svg" alt="CTA-FEED Section">
+                    <img class="xs-w-75" src="/assets/Contact-us-img.svg" alt="CTA-FEED Section">
                 </div>
-                <div class="cta-text">
-                    <h2>Feel free to contact us at the help center about anything you may have concerns about.</h2>
-                    <a href="#">Contact Us</a>
+                <div class="cta-text xs-pad-d5">
+                    <h2 class="xs-fs-1">Feel free to contact us at the help center about anything you may have concerns about.</h2>
+                    <a class="xs-btn-pad2 xs-fs-1" href="#">Contact Us</a>
                 </div>
             </div>
         </div>
 
-        <div class="coming-soon-section">
+        <div class="coming-soon-section xs-w-95">
             <div class="coming-soon">
-                <div class="coming-soon-image">
-                    <img src="/assets/coming-soon-rocket.svg" alt="Coming Soon Image">
+                <div class="coming-soon-image xs-hide">
+                    <img class="xs-hide" src="/assets/coming-soon-rocket.svg" alt="Coming Soon Image">
                 </div>
-                <div class="coming-soon-text">
+                <div class="coming-soon-text" style="border: 1px solid red">
                     <span>Coming Soon</span>
                     <h3>At opinionly we give users the freedom to suggest new updates, features that they would want the
                         platform to have, they will be granted access into beta testing to check out new features before
@@ -152,76 +152,76 @@
             </div>
         </div>
 
-        <div class="footer-section">
+    </div>
 
-            <div class="footer-cta-section">
-                <div class="footer-cta-text">
-                    <h3>Ready to get started ?</h3>
-                    <h2>Let's hear what you have to say</h2>
+    <div class="footer-section">
+
+        <div class="footer-cta-section">
+            <div class="footer-cta-text">
+                <h3>Ready to get started ?</h3>
+                <h2>Let's hear what you have to say</h2>
+            </div>
+            <div class="footer-cta-register">
+                <a href="./register.html">Sign In now</a>
+                <a href="./register.html" class="sign-up">Sign Up for free</a>
+            </div>
+        </div>
+
+        <div class="footer-main-section">
+            <!-- <img src="/assets/Footer-bg.png" alt="Footer Background" class="footer-bg"> -->
+            <div class="footer-socials">
+
+                <div class="footer-logo">
+                    <img src="/assets/opinionly-logo-full.svg" alt="Footer Logo">
                 </div>
-                <div class="footer-cta-register">
-                    <a href="#">Sign In now</a>
-                    <a href="#" class="sign-up">Sign Up for free</a>
+
+                <h5>Follow us today</h5>
+
+                <div class="footer-social-tags">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+                <a href="#" class="footer-contact-btn">Contact Us</a>
+            </div>
+
+            <div class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Leader Board</a></li>
+                <li><a href="#">Our Company</a></li>
+                <div class="coming-soon-btn">
+                    <a href="#">Coming Soon <img src="/assets/rocket.png" alt="Coming Soon Image"></a>
                 </div>
             </div>
 
-            <div class="footer-main-section">
-                <!-- <img src="/assets/Footer-bg.png" alt="Footer Background" class="footer-bg"> -->
-                <div class="footer-socials">
-
-                    <div class="footer-logo">
-                        <img src="/assets/opinionly-logo-full.svg" alt="Footer Logo">
-                    </div>
-
-                    <h5>Follow us today</h5>
-
-                    <div class="footer-social-tags">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-
-                    <a href="#" class="footer-contact-btn">Contact Us</a>
-                </div>
-
-                <div class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">FAQ's</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Leader Board</a></li>
-                    <li><a href="#">Our Company</a></li>
-                    <div class="coming-soon-btn">
-                        <a href="#">Coming Soon <img src="/assets/rocket.png" alt="Coming Soon Image"></a>
-                    </div>
-                </div>
-
-                <div class="footer-subscribe">
-                    <h3>Subscribe To Our <b>Newsletter</b></h3>
-                    <p>Hoping to get the latest news, trending opinions, updates, daily gist, exclusive contents and the
-                        rest? subscribe to our newsletter today, promise you won't regret it 😉</p>
-                    <div class="subscribe">
-                        <input type="text" placeholder="Type your email here...">
-                        <button><img src="/assets/subscribe.png" alt="Subscribe Image"></button>
-                    </div>
-                </div>
-
-                <div class="copyright">
-                    <h5><b>&#169;</b> 2023 All Rights Reserved</h5>
-                    <div class="terms">
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </div>
+            <div class="footer-subscribe">
+                <h3>Subscribe To Our <b>Newsletter</b></h3>
+                <p>Hoping to get the latest news, trending opinions, updates, daily gist, exclusive contents and the
+                    rest? subscribe to our newsletter today, promise you won't regret it 😉</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Type your email here...">
+                    <button><img src="/assets/subscribe.png" alt="Subscribe Image"></button>
                 </div>
             </div>
 
+            <div class="copyright">
+                <h5><b>&#169;</b> 2023 All Rights Reserved</h5>
+                <div class="terms">
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </div>
+            </div>
         </div>
 
     </div>
 
-    <script src="/script.js" defer></script>
+    <script src="/script.js"></script>
 
 </body>
 

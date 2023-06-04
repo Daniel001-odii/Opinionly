@@ -52,6 +52,6 @@ feed left sect (your opinion matters) : name-color: #00002F 26%;   tag-color: #0
 
 feed right sect (popular topics): background color : #BAEBCE; opinions-small color: #6C888B;
 
-feed right sect (leader board); background color : #00002F 4%; border-left color: #BDBDC9;  gold : #F08200;   bronze: #854903;  silver: #A9A49F;   blue: #00002F;  box-shadow color : #08B74F 21%;
+feed right sect (leader board); background color : #00002F 4%; border-left color: #BDBDC9;  gold : #FFD700;   bronze: #CD7F32;  silver: #C0C0C0;   blue: #00002F;  box-shadow color : #08B74F 21%;
 
 feed right sect (popular questions): background color : #00002F 4%;  tag-background color: #08B74F 28%;  number of opinions color: #6C888B;

@@ -1,3 +1,5 @@
+
+
 // REGISTER VARIABLES
 const signinToggle = document.getElementById("sign-in-toggle");
 const signupToggle = document.getElementById("sign-up-toggle");
@@ -34,9 +36,48 @@ const feedExtend10 = document.querySelector(".extend-10");
 
 const feedTextExtend = document.querySelectorAll(".feed-text-extended");
 
+// Comment Section Variables
+
+// selecting all reply  buttons
+const replyBtn1 = document.querySelector(".reply-btn-1");
+const replyBtn2 = document.querySelector(".reply-btn-2");
+const replyBtn3 = document.querySelector(".reply-btn-3");
+const replyBtn4 = document.querySelector(".reply-btn-4");
+
+// selecting all reply text containers
+const userReply1 = document.querySelector(".user-reply-1");
+const userReply2 = document.querySelector(".user-reply-2");
+const userReply3 = document.querySelector(".user-reply-3");
+const userReply4 = document.querySelector(".user-reply-4");
+
+// adding the toggle function to each of the comments
+
+replyBtn1.addEventListener("click", () => {
+    userReply1.classList.toggle("toggle");
+});
+
+replyBtn2.addEventListener("click", () => {
+    userReply2.classList.toggle("toggle");
+});
+
+replyBtn3.addEventListener("click", () => {
+    userReply3.classList.toggle("toggle");
+});
+
+replyBtn4.addEventListener("click", () => {
+    userReply4.classList.toggle("toggle");
+});
+
+// Menu Toggle Variables
+const menuIcon = document.querySelector(".menu-img");
+const menuFull = document.querySelector(".nav-menu-full");
+
+// Apply Button Variables
+const applyDetails = document.querySelector(".career-listing-details");
+const applySection = document.querySelector(".career-apply-container");
+
 toggleFeedBtn1.addEventListener("click", () => {
     feedExtend1.classList.toggle("feed-toggle");
-    toggl
 });
 
 toggleFeedBtn2.addEventListener("click", () => {
@@ -75,6 +116,16 @@ toggleFeedBtn10.addEventListener("click", () => {
     feedExtend10.classList.toggle("feed-toggle");
 });
 
+// MENU TOGGLE SCRIPT
+menuIcon.addEventListener("click", () =>{
+    menuFull.classList.toggle("toggle");
+
+    if(menuFull.classList.contains("toggle")){
+        menuIcon.src = "/assets/bad.svg";
+    } else {
+        menuIcon.src = "/assets/menu 1.png";
+    }
+});
 
 // REGISTER PAGE SCRIPT
 
@@ -96,15 +147,19 @@ function toggleSignIn(){
     signupForm.style.display = "none";
 }
 
+// APPLY CAREER SCRIPT
+function CareerDetails() {
+    applyDetails.classList.toggle("toggle");
+}
+
+function applySect() {
+    applySection.classList.toggle("toggle");
+}
+
 // SCROLL BAR SCRIPT
 window.addEventListener("scroll", () => {
     scroll = pageYOffset
 
     progress=(scroll/fullHeight)*100
     document.getElementById("bar").style.width = `${progress}vw`
-})
-
-// VIEW OPINION STAT SCRIPT
-function hideShow() {
-    
-}
+});

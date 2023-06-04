@@ -1,0 +1,294 @@
+@media only screen and (max-width: 992px){
+    .xs-hide{
+        display: none !important;
+    }
+
+    .xs-js-center{
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .xs-margin-0{
+        margin: 0px !important;
+    }
+
+    .xs-marginTop-d8{
+        margin-top: 0.8em !important;
+    }
+
+    .xs-marginBottom-d8{
+        margin-bottom: 0.8em !important;
+    }
+
+    .xs-marginBottom-0{
+        margin-bottom: 0 !important;
+    }
+
+    .xs-w-100{
+        width: 100% !important;
+    }
+
+    .xs-w-0{
+        width: 0% !important;
+    }
+
+    .xs-w-50{
+        width: 50% !important;
+    }
+
+    .xs-w-40{
+        width: 40% !important;
+    }
+
+    .xs-w-30{
+        width: 30% !important;
+    }
+
+    .xs-w-70{
+        width: 70% !important;
+    }
+
+    .xs-wpx-70{
+        width: 70px !important;
+    }
+
+    .xs-wpx-10{
+        width: 10px !important;
+    }
+
+    .xs-wpx-50{
+        width: 50px !important;
+    }
+
+    .xs-wpx-20{
+        width: 20px !important;
+    }
+
+    .xs-wpx-30{
+        width: 30px !important;
+    }
+
+    .xs-hpx-10{
+        height: 10px !important;
+    }
+
+    .xs-hpx-20{
+        height: 20px !important;
+    }
+
+    .xs-hpg-70{
+        height: 70% !important;
+    }
+
+    .xs-hpg-50{
+        height: 50% !important;
+    }
+
+    .xs-display-flex{
+        display: flex !important;
+    }
+
+    .xs-height-auto{
+        height: auto !important;
+    }
+
+    .xs-height-0{
+        height: 0 !important;
+    }
+
+    .xs-height-30{
+        height: 30vh !important;
+    }
+
+    .xs-height-50{
+        height: 50vh !important;
+    }
+
+    .xs-height-20{
+        height: 20vh !important;
+    }
+
+    .xs-height-40{
+        height: 50vh !important;
+    }
+
+    .xs-height-70{
+        height: 70vh !important;
+    }
+
+    .xs-height-10{
+        height: 10vh !important;
+    }
+
+    .xs-left-16{
+        left: 16rem !important;
+    }
+
+    .xs-left-25{
+        left: 25rem !important;
+    }
+
+    .xs-fs-2{
+        font-size: 2em !important;
+    }
+
+    .xs-fs-1{
+        font-size: 1em !important;
+    }
+
+    .xs-fs-d8{
+        font-size: 0.8em !important;
+    }
+
+    .xs-fw-light{
+        font-weight: 300 !important;
+    }
+
+    .xs-fw-bold{
+        font-weight: 500 !important;
+    }
+
+    .xs-fw-bolder{
+        font-weight: 800 !important;
+    }
+
+    .xs-pad-1{
+        padding: 1em !important;
+    }
+
+    .xs-pad-d8{
+        padding: 0.8em !important;
+    }
+
+    .xs-pad-d5{
+        padding: 0.5em !important;
+    }
+
+    .xs-pad-0{
+        padding: 0 !important;
+    }
+
+    .xs-top-d3{
+        top: 1.5em !important;
+    }
+
+    .xs-right-d1{
+        right: 1.1em !important;
+    }
+
+    .xs-left-22{
+        left: 22.2em !important;
+    }
+
+    .xs-gap-0{
+        gap: 0em !important;
+    }
+
+    .xt-main-container{
+        grid-template-areas: 
+        "xfc xfc xfc xfc  xfc xfc xfc xfc  xfc xfc xfc xfc"
+        "xfc xfc xfc xfc  xfc xfc xfc xfc  xfc xfc xfc xfc"
+        "xfc xfc xfc xfc  xfc xfc xfc xfc  xfc xfc xfc xfc"
+        "xfc xfc xfc xfc  xfc xfc xfc xfc  xfc xfc xfc xfc"
+        "xfc xfc xfc xfc  xfc xfc xfc xfc  xfc xfc xfc xfc";
+      }
+
+      .img-shrink {
+        width: 70% !important;
+      }
+
+      .img-contain{
+        object-fit: contain !important;
+      }
+
+    
+}
+
+@media only screen and (min-width: 992px){
+    
+}
+
+@media screen and (max-width: 540px){
+    
+}
+
+@media screen and (width:280px ){
+    .xs-fs-d8{
+        font-size: 0.8em !important;
+    }
+
+    .xs-fs-1{
+        font-size: 1em !important;
+    }
+
+    .img-shrink{
+        width: 80% !important;
+    }
+
+    .xs-hide{
+        display: none !important;
+    }
+
+    .xs-jus-space{
+        justify-content: space-between !important;
+    }
+
+    .xs-margin-0{
+        margin: 0px !important;
+    }
+
+    .xs-js-center{
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .pos-rm{
+        position: static !important;
+    }
+
+    .xs-w-90{
+        width: 90% !important;
+    }
+
+    .xs-pad-d5{
+        padding: 0.5em !important;
+    }
+
+    .xs-pad-d7{
+        padding: 0.7em !important;
+    }
+
+    .xs-w-70{
+        width: 70% !important;
+    }
+
+    .xs-ml-1{
+        margin-left: 1em !important;
+    }
+
+    .Top{
+        margin-top: -7em !important;
+    }
+
+    .xs-w-95{
+        width: 95% !important;
+    }
+
+    .xs-btn-pad{
+        padding: 1em 1.5em !important;
+    }
+
+    .xs-btn-pad2{
+        padding: 1em !important;
+    }
+
+    .xs-marginTop-d8{
+        margin-top: 0.8em !important;
+    }
+    
+    .xs-w-75{
+        width: 75% !important;
+    }
+}
